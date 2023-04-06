@@ -1,0 +1,7 @@
+.container {
+  @apply flex flex-col flex-wrap border bg-slate-100 rounded-md gap-2 p-6 text-left hover:bg-slate-300;
+}
+
+.info {
+  @apply flex gap-2 items-center;
+}

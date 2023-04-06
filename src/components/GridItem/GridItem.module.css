@@ -1,0 +1,19 @@
+.container {
+  @apply flex flex-col flex-wrap text-left rounded-md gap-2 p-6;
+}
+
+.info {
+  @apply flex gap-2 items-center flex-wrap flex-1;
+}
+
+.image {
+  @apply w-full aspect-video object-cover;
+}
+
+.card {
+  @apply flex flex-col border h-full bg-slate-100 rounded-md gap-2 overflow-hidden hover:bg-slate-300;
+}
+
+.source {
+  @apply px-2 text-center bg-slate-300 rounded-md font-medium;
+}

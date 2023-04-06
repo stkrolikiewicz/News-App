@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --header-h: 75px;
+  --main-h: calc(100vh - var(--header-h));
+}
